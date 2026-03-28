@@ -1,0 +1,20 @@
+{
+  "name": "bdd-cucumber-playwright",
+  "version": "1.0.0",
+  "description": "BDD test automation using Cucumber and Playwright with Gherkin scenarios",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:login": "cucumber-js features/login.feature",
+    "test:checkout": "cucumber-js features/checkout.feature",
+    "test:sorting": "cucumber-js features/sorting.feature"
+  },
+  "author": "Darrius Jones",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.0",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "@playwright/test": "^1.50.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
